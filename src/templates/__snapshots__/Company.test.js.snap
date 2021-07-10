@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`templates > Company should match snapshot 1`] = `
+<div
+  className="sc-eCApnc wGQyr"
+>
+  <span
+    className="sc-dlnjwi emJSdu"
+  >
+    Mansa
+  </span>
+  <span
+    className="sc-hKFxyN hpHuXd"
+  >
+    Siret: 
+    123457654765
+  </span>
+  <span
+    className="sc-hKFxyN hpHuXd"
+  >
+    Date Creation: 
+    01/01/2000
+  </span>
+  <span
+    className="sc-hKFxyN hpHuXd"
+  >
+    Adresse: 
+    1 Avenue de Paris, Paris, 75001
+  </span>
+</div>
+`;

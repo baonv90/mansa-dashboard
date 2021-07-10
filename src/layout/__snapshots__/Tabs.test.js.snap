@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`layout > Tabs should match snapshot 1`] = `
+<div
+  className="sc-bdnxRM fvtCJR"
+>
+  <div
+    className="sc-gtsrHT fSDNVI"
+  >
+    <span />
+    <span />
+    <span />
+  </div>
+  <div>
+    1
+  </div>
+</div>
+`;

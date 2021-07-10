@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountList should match snapshot 1`] = `
+<div
+  className="sc-bdnxRM gkzNBE"
+  onClick={[Function]}
+>
+  <span
+    className="sc-gtsrHT dUFbuC"
+  />
+  <span
+    className="sc-dlnjwi jHzDDr"
+  />
+</div>
+`;

@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`templates > AccountDetail should match snapshot 1`] = `
+<div
+  className="sc-iqAclL cuMlls"
+>
+  <div
+    className="sc-crzoAE fuFIuo"
+  >
+    <span
+      className="sc-bdnxRM bnAtid"
+    >
+      Current Balance
+    </span>
+    <div
+      className="sc-bqGGPW knRyLe"
+    >
+      <span
+        className="sc-ksluID jtYqrw"
+      />
+      <span
+        className="sc-hBMUJo jFxRFz"
+      />
+    </div>
+  </div>
+  <div
+    className="sc-dIsUp eIXnfA"
+  >
+    <span
+      className="sc-bdnxRM bnAtid"
+    >
+      Transactions
+    </span>
+    <div
+      className="sc-dlnjwi sc-hKFxyN bKaicu jJSnIS"
+    >
+      <div
+        className="sc-eCApnc QOfmb"
+      >
+        Date
+      </div>
+      <div
+        className="sc-eCApnc QOfmb"
+      >
+        Type
+      </div>
+      <div
+        className="sc-eCApnc QOfmb"
+      >
+        Category
+      </div>
+      <div
+        className="sc-jSFjdj erYJoO"
+      >
+        Amount
+      </div>
+    </div>
+    <div
+      className="sc-gtsrHT eCTvhQ"
+    >
+      <div
+        className="sc-dlnjwi bKaicu"
+      >
+        <div
+          className="sc-eCApnc QOfmb"
+        >
+          10/10/202
+        </div>
+        <div
+          className="sc-eCApnc QOfmb"
+        >
+          debit
+        </div>
+        <div
+          className="sc-eCApnc QOfmb"
+        >
+          debit
+        </div>
+        <div
+          className="sc-jSFjdj fJpqKh"
+        >
+          10
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

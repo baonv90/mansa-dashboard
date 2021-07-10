@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Transactions should match snapshot 1`] = `
+Array [
+  <div
+    className="sc-gtsrHT sc-dlnjwi iJJHtu snPHy"
+  >
+    <div
+      className="sc-hKFxyN bArvyH"
+    >
+      Date
+    </div>
+    <div
+      className="sc-hKFxyN bArvyH"
+    >
+      Type
+    </div>
+    <div
+      className="sc-hKFxyN bArvyH"
+    >
+      Category
+    </div>
+    <div
+      className="sc-eCApnc kDPHZL"
+    >
+      Amount
+    </div>
+  </div>,
+  <div
+    className="sc-bdnxRM krqvSh"
+  >
+    <div
+      className="sc-gtsrHT iJJHtu"
+    >
+      <div
+        className="sc-hKFxyN bArvyH"
+      >
+        2021/08/07
+      </div>
+      <div
+        className="sc-hKFxyN bArvyH"
+      >
+        atm
+      </div>
+      <div
+        className="sc-hKFxyN bArvyH"
+      >
+        debit
+      </div>
+      <div
+        className="sc-eCApnc icuxwU"
+      >
+        11
+        £
+      </div>
+    </div>
+    <div
+      className="sc-gtsrHT iJJHtu"
+    >
+      <div
+        className="sc-hKFxyN bArvyH"
+      >
+        2021/08/07
+      </div>
+      <div
+        className="sc-hKFxyN bArvyH"
+      >
+        atm
+      </div>
+      <div
+        className="sc-hKFxyN bArvyH"
+      >
+        debit
+      </div>
+      <div
+        className="sc-eCApnc icuxwU"
+      >
+        11
+        £
+      </div>
+    </div>
+  </div>,
+]
+`;

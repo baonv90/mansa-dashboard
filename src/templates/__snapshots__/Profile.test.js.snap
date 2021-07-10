@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`templates > Company should match snapshot 1`] = `
+<div
+  className="sc-bdnxRM cZDZdT"
+>
+  <img
+    className="sc-gtsrHT cHsyZy"
+    src=""
+  />
+  <span
+    className="sc-dlnjwi emJSdu"
+  >
+    Goku Son
+  </span>
+  <span
+    className="sc-hKFxyN hpHuXd"
+  >
+    Gohan@Chichi.kame
+  </span>
+  <span
+    className="sc-hKFxyN hpHuXd"
+  >
+    123456789
+  </span>
+</div>
+`;

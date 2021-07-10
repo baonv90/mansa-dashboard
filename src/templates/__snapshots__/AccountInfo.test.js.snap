@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`templates > AccountInfo should match snapshot 1`] = `
+<div
+  className="sc-jSFjdj kRAgvN"
+>
+  <div
+    className="sc-bdnxRM fvtCJR"
+  >
+    <div
+      className="sc-gtsrHT fSDNVI"
+    >
+      <div
+        className="sc-dlnjwi hsVvGm"
+        onClick={[Function]}
+      >
+        <span
+          className="sc-hKFxyN fXoShm"
+        />
+        <span
+          className="sc-eCApnc fxdTbP"
+        />
+      </div>
+      <div
+        className="sc-dlnjwi bGMjrZ"
+        onClick={[Function]}
+      >
+        <span
+          className="sc-hKFxyN fXoShm"
+        />
+        <span
+          className="sc-eCApnc fxdTbP"
+        />
+      </div>
+      <div
+        className="sc-dlnjwi bGMjrZ"
+        onClick={[Function]}
+      >
+        <span
+          className="sc-hKFxyN fXoShm"
+        />
+        <span
+          className="sc-eCApnc fxdTbP"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
