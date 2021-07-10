@@ -2,6 +2,8 @@
 
 Mansa technical challenge https://github.com/MansaGroup/kanedama/tree/main/frontend
 
+Demo: https://mansa-dashboard.herokuapp.com/
+
 # Description
 The idea of this dashboard to provide information in one view without disrupting user's focus.
 
