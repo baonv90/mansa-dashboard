@@ -18,7 +18,7 @@ exports[`templates > Company should match snapshot 1`] = `
   <span
     className="sc-hKFxyN hpHuXd"
   >
-    Date Creation: 
+    Creation date: 
     01/01/2000
   </span>
   <span

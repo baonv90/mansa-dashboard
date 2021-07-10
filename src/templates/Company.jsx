@@ -31,7 +31,7 @@ const Company = () => {
     return <>
       <TitleName>{denomination}</TitleName>
       <Info>Siret: {siret}</Info>
-      <Info>Date Creation: {date_creation}</Info>
+      <Info>Creation date: {date_creation}</Info>
       <Info>Adresse: {geo_adresse}</Info>
     </>;
   };

@@ -1,7 +1,7 @@
 import renderer from 'react-test-renderer';
 import AccountList, { Container } from './AccountList';
 
-describe('AccountList', () => {
+describe('component > AccountList', () => {
   it('should match snapshot', () =>  {
     const component = renderer.create(
       <AccountList />,

@@ -1,7 +1,7 @@
 import renderer from 'react-test-renderer';
 import Transactions, { Item } from './Transactions';
 
-describe('Transactions', () => {
+describe('components > Transactions', () => {
   const props = {
     data: [
       {
