@@ -18,13 +18,18 @@ const Header = styled.div`
 // Tabs component display a TabNav component and its content based on the selected Tab
 const Tabs = ({ children, TabNav }) => {
   const [selectedTab, setSelectedTab] = useState(0);
+
+  const onSelectTab = (index) => {
+    setSelectedTab(index);
+  };
+
   const renderTitles = useCallback((items) => 
     items.map(({ props }, index) => (
       <TabNav
         key={index}
         index={index}
+        onSelectTab={onSelectTab}
         isSelected={selectedTab === index}
-        setSelectedTab={setSelectedTab}
         {...props}
       />
     )

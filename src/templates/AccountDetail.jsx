@@ -58,7 +58,7 @@ const AccountDetail = (props) => {
     return null;
   }
 
-  const chartData = (data || []).map(dat => dat.amount);
+  const chartData = (data || []).map(itemData => itemData.amount);
 
   return (
     <Container>
@@ -69,7 +69,7 @@ const AccountDetail = (props) => {
             <Currency>{currency}</Currency>
           </Balance>
         </Block>
-        {chartData && chartData.length && <BalanceChart data={chartData} />}
+        {chartData && !chartData.length === 0 && <BalanceChart data={chartData} />}
       </BalanceWrapper>
       <TransactionsWrapper>
         <Block title='Transactions'>

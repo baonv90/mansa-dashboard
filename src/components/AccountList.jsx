@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react'
+import React from 'react'
 import styled from 'styled-components';
 
 export const Container = styled.div`
@@ -27,16 +27,12 @@ const AccountNumber = styled.span`
 `;
 
 
-const AccountList = ({ isSelected, setSelectedTab, index, ...data }) => {
+const AccountList = ({ isSelected, onSelectTab, index, ...data }) => {
   const { account_number, account_type } = data;
-
-  const onClick = useCallback(() => {
-    setSelectedTab(index)
-  }, [setSelectedTab, index]);
 
   return (
     <Container
-      onClick={onClick}
+      onClick={() => onSelectTab(index)}
       isSelected={isSelected}
     >
       <AccountType>{account_type}</AccountType>

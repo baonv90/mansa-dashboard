@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Tabs from '../layout/Tabs';
-import Tab from '../layout/Tab';
 import AccountDetail from './AccountDetail';
 import AccountList from '../components/AccountList';
 import { useFetchData } from '../hooks/useFetchData';
@@ -26,10 +25,9 @@ const AccountInfo = () => {
     <Container>
       <Tabs TabNav={AccountList}>
         {
-          (data || []).map((dat, index) => 
-          <Tab key={`tab${index}`} {...dat}>
-            <AccountDetail {...dat} />
-          </Tab>)
+          (data || []).map((accountData, index) => 
+            <AccountDetail key={index} {...accountData} />
+          )
         }
       </Tabs>
     </Container>
